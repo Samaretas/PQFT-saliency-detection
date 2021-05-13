@@ -2,7 +2,7 @@ from cv2 import cv2
 import numpy as np
 
 
-def PQTF(prev_img, next_img, map_size = 64):
+def PQFT(prev_img, next_img, map_size = 64):
     """
         Computing saliency using phase spectrum of quaternion fourier transform.
         Images are 3 channel.
